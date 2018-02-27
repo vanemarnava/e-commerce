@@ -38,25 +38,6 @@ class Header extends Component {
     return (
     <section>
     <div className="container-fluid Header">
-      <div className="row"> 
-
-        <div className="col-md-1">
-          <h3>{title}</h3>
-        </div>
-
-        <div className="col-md-1">                
-          <div className="Logo">
-            <img src={logo} alt="logo" />
-          </div>
-     
-              <input type="text" className="form-control" placeholder="Search" />
-       
-        
-              <button type="submit" className="btn btn-default">Submit</button>
-
-        </div>
-
-      </div>    
 
       <div className="row">
         <div className="col-md-12 theMenu text-center">
